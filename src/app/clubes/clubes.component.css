@@ -1,0 +1,5 @@
+/* HeroesComponent's private CSS styles */
+.activo {
+    background-color: red !important;
+    color: white;
+  }
