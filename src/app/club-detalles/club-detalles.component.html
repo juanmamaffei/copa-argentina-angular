@@ -1,0 +1,9 @@
+<div *ngIf="clubActivo; else clubInactivo">
+    <h3>Club activo: {{clubActivo.nombre}}</h3>
+    <p><label>Modificar nombre: </label><input [(ngModel)]="clubActivo.nombre" placeholder="nombre"></p>
+    <p><label>Goles a favor: </label><input [(ngModel)]="clubActivo.goles" placeholder="goles"></p>
+  </div>
+
+  <ng-template #clubInactivo>
+    <h3>Haga clic en un club</h3>
+  </ng-template>
