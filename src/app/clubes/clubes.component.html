@@ -1,15 +1,15 @@
-<h2>Clubes</h2>
 
-<div *ngIf="clubActivo; else clubInactivo">
-<h3>Club activo: <input [(ngModel)]="clubActivo.nombre" placeholder="nombre"></h3>
-
-</div>
-<ng-template #clubInactivo>
-  <h3>Haga clic en un club</h3>
-</ng-template>
 
 <ul class="clubes">
 
-  <li *ngFor="let club of clubes" (click)="onSelect(club)" [class.activo]="club == clubActivo">{{club.id}}: {{club.nombre}} ({{club.goles}} goles a favor)</li>
+  <li *ngFor="let club of clubes" (click)="onSelect(club)" [class.activo]="club == clubActivo"><span class="idClub">{{club.id}}</span> {{club.nombre}} <span class="golesClubes">({{club.goles}} goles a favor)</span></li>
 
 </ul>
+
+<div *ngIf="clubActivo; else clubInactivo">
+  <h3>Club activo: <input [(ngModel)]="clubActivo.nombre" placeholder="nombre"></h3>
+
+  </div>
+  <ng-template #clubInactivo>
+    <h3>Haga clic en un club</h3>
+  </ng-template>

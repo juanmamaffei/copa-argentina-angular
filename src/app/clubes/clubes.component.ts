@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Club } from '../club';
-import { CLUBES } from '../plantilla-clubes'
+import { CLUBES } from '../plantilla-clubes';
 
 @Component({
   selector: 'app-clubes',

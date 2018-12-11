@@ -1,27 +1,26 @@
 # CopaArgentina
+Este proyecto fue creado para una serie de tutoriales, disponibles en ´http://jmmaffei.com´, usando [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+## Parte I
 
-## Development server
+Disponible en ´https://jmmaffei.com/aprender-angular-desde-cero-i/´.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Creamos el proyecto, introdujimos las ideas básicas para trabajar con la CLI de Angular y subimos todo a Github.
 
-## Code scaffolding
+## Parte II
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Disponible en ´https://jmmaffei.com/aprender-angular-desde-cero-ii/´.
 
-## Build
+Creamos un listado de clubes, los listamos y damos la posibilidad de modificarlos. Usamos las directivas ngFor, ngIf y ngModel.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Parte III
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Cómo testearlo
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+En la consola, tecleá `ng serve` y entrá a ver qué onda, dirigiéndote a `http://localhost:4200/` en tu navegador.
 
-## Further help
+## Licencia
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Leé el archivo LICENSE.md

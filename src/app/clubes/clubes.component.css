@@ -1,5 +1,56 @@
-/* HeroesComponent's private CSS styles */
+
 .activo {
-    background-color: red !important;
+    background-color: #001871 !important;
     color: white;
+  }
+  .clubes {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 25em;
+  }
+  .clubes li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #43bcff;
+    margin: 1em;
+    padding: .5em 0;
+    height: 1em;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .idClub {
+      background-color: rgba(0,24,113,.6);
+      padding: 8px;
+      margin: 0px;
+      border-bottom-left-radius: 6px;
+      border-top-left-radius: 6px;
+
+  }
+  .golesClubes{
+    font-style: oblique;
+    font-size: .8em;
+
+  }
+
+  .clubes li.activo:hover {
+    background-color: black !important;
+    color: white;
+  }
+  .clubes li.activo {
+    left: .5em;
+
+  }
+  .clubes li:hover {
+    color: white;
+    background-color: #001871;
+    left: .5em;
+  }
+
+
+  h3 {
+    color:#001871;
+    font-family: Roboto;
+
   }
