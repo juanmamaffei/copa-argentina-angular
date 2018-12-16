@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+
 import { Club } from '../club';
-import { CLUBES } from '../plantilla-clubes';
+import { ClubService } from '../club.service';
 
 @Component({
   selector: 'app-clubes',
@@ -8,12 +9,22 @@ import { CLUBES } from '../plantilla-clubes';
   styleUrls: ['./clubes.component.css']
 })
 export class ClubesComponent implements OnInit {
-  clubes = CLUBES;
+  clubes = Club[''];
+
   clubActivo: Club;
   onSelect(club: Club): void { this.clubActivo = club; }
-  constructor() { }
+
+
+  constructor(private clubServicio: ClubService) {}
 
   ngOnInit() {
+    this.obtenerClubes();
+  }
+
+  obtenerClubes(): void {
+    this.clubServicio.obtenerClubes().subscribe(clubes => this.clubes = clubes);
+
+    // this.clubes = this.clubServicio.obtenerClubes();
   }
 
 }

@@ -11,6 +11,7 @@ export class ClubDetallesComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

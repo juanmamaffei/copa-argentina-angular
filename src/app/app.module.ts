@@ -1,3 +1,4 @@
+// Importaciones de Javascript
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -8,6 +9,8 @@ import { ClubDetallesComponent } from './club-detalles/club-detalles.component';
 
 @NgModule({
   declarations: [
+    /* Los componentes, directivas y pipes que pertenecen a este módulo.
+     Se declaran SÓLO en un módulo.*/
     AppComponent,
     ClubesComponent,
     ClubDetallesComponent
@@ -16,7 +19,7 @@ import { ClubDetallesComponent } from './club-detalles/club-detalles.component';
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [], // Un array con los servicios que la app necesita
   bootstrap: [AppComponent]
 })
 export class AppModule { }

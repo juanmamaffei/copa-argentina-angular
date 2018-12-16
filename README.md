@@ -15,7 +15,11 @@ Creamos un listado de clubes, los listamos y damos la posibilidad de modificarlo
 
 ## Parte III
 
+Mejoramos la apariencia con CSS, separamos componentes para hacer la app más modular y usamos un pipe.
 
+## Parte IV
+
+Creamos un servicio y lo configuramos. Usamos nuestro primer observable.
 
 ## Cómo testearlo
 
