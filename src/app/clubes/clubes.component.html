@@ -1,5 +1,9 @@
 <ul class="clubes">
-  <li *ngFor="let club of clubes" (click)="onSelect(club)" [class.activo]="club == clubActivo"><span class="idClub">{{club.id}}</span> {{club.nombre | titlecase}} <span class="golesClubes">({{club.goles}} goles a favor)</span></li>
+  <li *ngFor="let club of clubes" (click)="onSelect(club)" [class.activo]="club == clubActivo">
+    <a routerLink="/club/{{ club.id }}">
+      <span class="idClub">{{club.id}}</span>
+      {{club.nombre | titlecase}}
+      <span class="golesClubes">({{club.goles}} goles a favor)</span>
+    </a>
+  </li>
 </ul>
-
-<app-club-detalles [clubActivo]="clubActivo"></app-club-detalles>

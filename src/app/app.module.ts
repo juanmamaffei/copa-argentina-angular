@@ -3,9 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
+// Componentes
 import { AppComponent } from './app.component';
 import { ClubesComponent } from './clubes/clubes.component';
 import { ClubDetallesComponent } from './club-detalles/club-detalles.component';
+
+// Enrutador
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,8 @@ import { ClubDetallesComponent } from './club-detalles/club-detalles.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [], // Un array con los servicios que la app necesita
   bootstrap: [AppComponent]

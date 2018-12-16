@@ -10,11 +10,14 @@ import { CLUBES } from './plantilla-clubes';
 export class ClubService {
 
   constructor() { }
-
+  club: Club;
   obtenerClubes(): Observable<Club[]> {
+
     return of(CLUBES);
 
   }
-
+  obtenerClubconId(id: number): Observable<Club> {
+    return of(CLUBES.find(club => club.id === id));
+  }
 
 }

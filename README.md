@@ -21,6 +21,10 @@ Mejoramos la apariencia con CSS, separamos componentes para hacer la app más mo
 
 Creamos un servicio y lo configuramos. Usamos nuestro primer observable.
 
+## Parte V
+
+Agregamos rutas y enlaces.
+
 ## Cómo testearlo
 
 En la consola, tecleá `ng serve` y entrá a ver qué onda, dirigiéndote a `http://localhost:4200/` en tu navegador.

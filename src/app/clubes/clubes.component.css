@@ -53,3 +53,7 @@
     font-family: Roboto;
 
   }
+  a {
+    color: black;
+    text-decoration: none;
+  }

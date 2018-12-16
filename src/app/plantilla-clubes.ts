@@ -1,4 +1,4 @@
-import { Club } from './club'
+import { Club } from './club';
 
 export const CLUBES: Club[] = [
     {id: 1, nombre: 'River Plate', goles: 19},
@@ -9,4 +9,4 @@ export const CLUBES: Club[] = [
     {id: 6, nombre: 'Godoy Cruz', goles: 7}   ,
     {id: 7, nombre: 'Olimpo', goles: 5},
     {id: 8, nombre: 'Atlanta', goles: 5}
-]
+];
