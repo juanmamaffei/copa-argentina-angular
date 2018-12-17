@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2018] [Juan Manuel Maffei]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+Some parts han been based on Angular Tutorial Tour of Heroes, Copyright (c) 2014-2018 Google, Inc.
+https://angular.io/license
